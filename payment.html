@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+</head>
+<body style="margin:0; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color:#fdfdfd;">
+
+  <!-- Navbar -->
+  <div style="position: relative; width: 100%; height: 65px; background-color:#6a4c93; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+    <img src="bmt.png" alt="logo" style="height: 50px; position: absolute; left: 20px; top: 50%; transform: translateY(-50%); border-radius:8px;">
+    <span style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 30px; font-weight: bold; color:white; letter-spacing:1px;">
+      Secure Payment
+    </span>
+  </div>
+
+  <!-- Content -->
+  <div style="width: 100%; min-height: 650px; padding: 40px; display:flex; justify-content:center; align-items:center;">
+    <table style="width: 90%; max-width: 1100px; border-collapse: collapse;">
+      <tr>
+
+        <!-- Left: Payment Options -->
+        <td style="width: 60%; padding: 20px; vertical-align: top;">
+          <h1 style="font-size: 36px; text-align: center; color:#432c69; margin:0; font-weight:bold; border-bottom:3px solid #6a4c93; display:inline-block; padding-bottom:6px;">
+            Choose Payment Method
+          </h1>
+          <p style="text-align:center; color:#555; font-size:15px; margin-top:12px; margin-bottom:30px;">
+            Select a payment option to continue booking your ticket securely
+          </p>
+
+          <!-- Payment Options -->
+          <div style="margin-bottom:25px; font-size:16px; color:#333;">
+            <label style="display:block; margin-bottom:15px;">
+              <input type="radio" name="payment" style="margin-right:8px;"> Net Banking
+            </label>
+            <label style="display:block; margin-bottom:15px;">
+              <input type="radio" name="payment" style="margin-right:8px;"> Credit / Debit Card
+            </label>
+            <label style="display:block; margin-bottom:15px;">
+              <input type="radio" name="payment" style="margin-right:8px;"> UPI (Google Pay, PhonePe, Paytm)
+            </label>
+            <label style="display:block;">
+              <input type="radio" name="payment" style="margin-right:8px;"> Cash on Delivery
+            </label>
+          </div>
+
+          <!-- Button -->
+          <div style="text-align:center; margin-top:35px;">
+            <button type="button" style="background:linear-gradient(90deg, #f9c74f, #f9844a); color:#432c69; padding:14px 35px; border-radius:30px; font-weight:bold; border:none; cursor:pointer; font-size:16px; box-shadow:0 4px 10px rgba(0,0,0,0.2); transition:0.3s;">
+              Confirm Payment
+            </button>
+          </div>
+        </td>
+
+        <!-- Right: Payment Illustration -->
+        <td style="width: 40%; text-align: center; padding: 20px;">
+          <img src="payment.png" alt="Payment Image" style="height: 75%; max-width: 100%; border-radius: 15px; box-shadow:0 4px 12px rgba(0,0,0,0.25); object-fit: cover;">
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
